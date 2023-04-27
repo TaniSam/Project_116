@@ -1,0 +1,33 @@
+.btn1 {
+    width: 220px;
+    font-weight:bold;
+    text-align: center;
+    font-size: medium;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 10px;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: purple;
+}
+
+canvas{
+    animation-name: Transition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Transition{
+    from { box-shadow: 1px 1px 38px #F4B400;}
+    to {box-shadow: 1px 1px 38px #0F9D58;}
+}
+
+body {
+    background-size: cover;
+}
